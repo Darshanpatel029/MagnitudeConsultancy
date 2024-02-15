@@ -1,0 +1,144 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+ul{
+    padding: 0 !important;
+}
+/* img{
+    max-width: 100%;
+    vertical-align: middle;
+} */
+section.wrapper {
+    margin: 0 25px;
+}
+.uk-country,
+.usa-map-img,
+.usa-edu-img,
+.uk-map-img,
+.canada-edu {
+    max-width: 50% !important;
+    vertical-align: middle;
+}
+/* .usa-map-img {
+    max-width: 50%;
+} */
+.canada-banner{
+    top: 50px;
+    background-image: url("https://espiconsultants.com/wp-content/uploads/2020/08/canada-banner.jpg");
+    height:600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.canada-banner h1{
+    position: absolute;
+    top: 45%;
+    left: 40%;
+    color: white;
+    font-size: 55px;
+
+}
+#primary{
+    
+    border: 1px solid #ccc;
+    padding: 35px;
+    background: #eee;
+    border-radius: 10px;
+    margin:0 25px;
+}
+.about-canada{
+    background: #f1f1f1;
+    padding: 1.75rem;
+    border-radius: 8px
+}
+.about-table-data {
+    padding: 19px;
+    border-radius: 15px;
+}
+
+/* UK */
+.uk-banner{
+    background-image: url("https://espiconsultants.com/wp-content/uploads/2020/08/untied-kingdom-destination-scaled.jpg");
+    background-size: cover;
+    height: 500px;
+    object-fit: cover;
+    opacity: 0.5;
+    background-position: center;
+}
+.uk-banner h1{
+    position: absolute;
+    top: 35%;
+    left: 30% !important;
+    color: white;
+    font-size: 55px;
+}
+.uk-edu-sys img {
+    max-width: 60%;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+}
+/* AUSTRALIA */
+.usa-banner{
+    background-image:url("https://espiconsultants.com/wp-content/uploads/2020/08/1920px-Lower_Manhattan_skyline_-_June_2017.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+.usa-banner h1{
+    position: absolute;
+    top: 35%;
+    left: 35% !important;
+    color: white;
+    font-size: 55px;
+}
+@media (max-width:768px) {
+    section.wrapper{
+        margin: 0 15px;
+    }
+    .us-country-img img,
+    .uk-country
+    {
+        width: 100% !important;
+    }
+    .usa-map-img,.usa-edu-img,.uk-map-img,
+    .uk-country,.uk-edu-sys,.canada-edu{
+        max-width: 100% !important;
+    }
+    .about-table-data{
+        padding: 0;
+    }
+}
+@media (max-width: 425px) {
+    section{
+        padding: 25px 0 !important;
+    }
+    section.wrapper{
+        margin: 0 12px;
+    }
+    section.wrapper {
+        margin: 0 0 !important;
+    }
+    #primary{
+        padding: 20px 0;
+        margin: 0 15px;
+    }
+    .canada-banner h1{
+        left: 20%;
+    }
+    .about-canada{
+        padding: 0;
+    }
+    .uk-banner h1{
+        top:46%;
+        left:30% !important;
+    }
+}
+
+h5.country-sub-title {
+    color: #008374;
+    font-weight:600;
+}

@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+img{
+    max-width: 100%;
+}
+
+.cntp{
+    margin-top: 12px;
+}
+#primary{
+    border: 1px solid #ccc;
+    padding: 35px;
+    background: #eee;
+    border-radius: 10px;
+}
+#main{
+    background-color: white;
+}
+.img-title img{
+    
+        max-width: 100%;
+        display: inline-block;
+        padding: 20px;
+        border: 1px transparent;
+    
+}
+.img-title {
+    margin-top: 75px;
+}
+.iltes-info h2, .pte-title{
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #008374;
+}
+.iltes-exam-struct-img img{
+    max-width: 100%;
+    display: inline-block;
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+li h4{
+    text-decoration: underline;
+}
+.iltes-typle-title{
+    list-style: disc;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 20px;
+}
+ul.iltes-title {
+    list-style: disc;
+}
+table td{
+   font-weight: 600;
+}
+.iltes-exam-struct h3,
+.faq-title{
+    font-weight: 700;
+    font-size: 40px;
+}
+.faq-title h2{
+    color: #008374;
+}
+
+/* PTE Start */
+ul.pte-info {
+    list-style:disc
+}
+.pte-info {
+    padding: 20px;
+}
+
+/* Responsive  */
+@media only screen and (max-width: 991px) {
+    .img-title {
+        margin-top: 30px;
+    }
+    
+}
+@media only screen and (max-width: 591px) {
+    .pte-exam-struct-img {
+        text-align: center;
+    }
+    
+}
+@media only screen and (max-width: 768px) {
+    #header .logo img{
+        position: absolute;
+        max-height: 100px !important;
+        
+        margin-left: 20px !important;
+    }
+}
